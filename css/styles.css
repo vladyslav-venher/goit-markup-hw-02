@@ -74,9 +74,9 @@ button {
 
 .hero-title {
     font-family: "Roboto", sans-serif;
-    font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    font-size: 56px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFF;
@@ -88,6 +88,12 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    background-color: #4D5AE5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
 }
 
 
@@ -133,20 +139,21 @@ button {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #fff;
+}
 
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
 
@@ -154,7 +161,6 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #434455;
 }
 
@@ -166,13 +172,15 @@ button {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-list {}
 
-.portfolio-item {}
+.portfolio-item {
+
+}
 
 .portfolio-subtitle {
     font-weight: 500;
